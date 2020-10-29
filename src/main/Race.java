@@ -15,14 +15,14 @@ public class Race<winner> {
         String winner = null;
         sleep(20000L);
         {
-            if (tortoise.getTimeTakenByTortoise() < rabbit.getTimeTakenByRabbit()) {
+            if (tortoise.getTimeByTortoise() < rabbit.getTimeByRabbit()) {
                 winner = " Tortoise wins the race!";
             }
-            else if (tortoise.getTimeTakenByTortoise() == rabbit.getTimeTakenByRabbit()) {
+            else if (tortoise.getTimeByTortoise() == rabbit.getTimeByRabbit()) {
                 winner = "No one wins the race!";
             }
             else {
-                winner = "Rabbit wins the race";
+                winner = "Rabbit wins the race!";
             }
             JOptionPane.showMessageDialog(null, winner);
         }
