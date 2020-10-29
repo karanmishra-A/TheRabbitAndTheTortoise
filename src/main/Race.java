@@ -13,7 +13,7 @@ public class Race<winner> {
         Tortoise tortoise = new Tortoise();
         tortoise.getTortoise().start();
         String winner = null;
-        sleep(20000L);
+        sleep(30000L);
         {
             if (tortoise.getTimeByTortoise() < rabbit.getTimeByRabbit()) {
                 winner = " Tortoise wins the race!";
